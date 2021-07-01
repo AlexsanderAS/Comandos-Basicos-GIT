@@ -4,7 +4,7 @@
 
 
 
-Foi criado uma lista como lembrete para alguns comando do git de como fazer um repositório local e remoto.
+Foi criado uma lista com comando básicos do git de como fazer um repositório local e remoto.
 
 
 
