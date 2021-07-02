@@ -4,8 +4,6 @@
 
 ### Criando Repositório Local, Comandos Básicos :newspaper:
 
-
-
 - **ls**  - Lista todas as pastas na unidade.
 
 - **ls -a** - pastas ocultas.
@@ -32,7 +30,7 @@
 
   git config --global --unset  user.email
 
-- **git config --list** - da a lista com as informações do arquivo
+- **git config --list** - mostra todas as configurações que estão no git.
 
   
 
@@ -44,21 +42,21 @@
 
   
 
-### Criando Repositório Remoto (GitHub)
+### Trabalhando com Repositório Remoto (GitHub) :globe_with_meridians:
 
 - **git remote add origin (inserir o link da pagina gerado no github)**  -
 
   **OBS**: o nome **origin** é um nome usado por convenção para servir como atalho do link gerado pelo github.
 
-- **git remote -v** - para consultar o link do arquivo.
+- **git remote -v** - lista de repositório remoto cadastrado.
 
-- **git push origin master** -  comando usado para fazer o repositório remoto.
+- **git push origin master** -  empurra o arquivo para o repositório remoto.
 
-  
+- **git pull origin master** - puxa o arquivo do repositório remoto quando o mesmo possui um versão diferente do repositório local.
 
-  
 
-  
+
+
 
 #### Conceito básico do funcionamento:
 
@@ -72,20 +70,16 @@
 
 - **Staged** - o arquivo está sendo preparado para um commit.
 
-  **Commit** - o arquivo foi finalizado. 
+- **Commit** - o arquivo foi finalizado. 
 
   
 
-  #### Comando básicos para Markdown.
+#### Comando básicos para Markdown.
 
 - (# )  - aumenta a fonte do texto.
-
 - (** Negrito **) 
-
 - (_  Itálico _) 
-
 - (: nome do emoji) 
-
 - (-)
 
 
